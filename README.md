@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![PyPI version](https://img.shields.io/pypi/v/evret)](https://pypi.org/project/evret/)
-[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://github.com/kaivid-labs/evret/actions)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://github.com/AI-ERA0011/evret/actions)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 Evret brings standard Information Retrieval metrics to your recommendation, RAG and search systems. Evaluate retrievers with Hit Rate, Recall, Precision, MRR, NDCG, ERR, RBP and Average Precision in just a few lines of code. Built for simplicity, extensibility, and seamless integration with vector databases and AI frameworks.
@@ -142,7 +142,7 @@ dataset = EvaluationDataset.from_json("eval_data.json")
 dataset = EvaluationDataset.from_csv("eval_data.csv")
 ```
 
-For detailed dataset format documentation, classic IR evaluation with document IDs, and more examples, see the [Dataset Format Guide](https://github.com/kaivid-labs/evret/blob/main/docs/evaluation/dataset-format.md)
+For detailed dataset format documentation, classic IR evaluation with document IDs, and more examples, see the [Dataset Format Guide](https://github.com/AI-ERA0011/evret/blob/main/docs/evaluation/dataset-format.md)
 
 ---
 
@@ -271,23 +271,3 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## 🤝 Contributing
 
 Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
----
-
-## 📚 Citation
-
-If you use Evret in your research, please cite:
-
-```bibtex
-@software{evret2026,
-  title={Evret: A Focused Retriever Evaluation Framework},
-  author={lucifertrj},
-  year={2026},
-}
-```
-
----
-
-<div align="center">
-**Built with ❤️ for the Information Retrieval community**
-</div>
